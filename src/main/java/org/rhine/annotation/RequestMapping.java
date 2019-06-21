@@ -8,6 +8,9 @@ import java.lang.annotation.*;
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.ANNOTATION_TYPE)
+@Target(ElementType.METHOD)
 public @interface RequestMapping {
+
+    String value();
+
 }
