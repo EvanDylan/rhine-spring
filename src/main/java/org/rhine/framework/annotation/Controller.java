@@ -1,4 +1,4 @@
-package org.rhine.annotation;
+package org.rhine.framework.annotation;
 
 import java.lang.annotation.*;
 

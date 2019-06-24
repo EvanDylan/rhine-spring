@@ -1,11 +1,11 @@
-package org.rhine.web;
+package org.rhine.framework.webmvc;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import org.rhine.annotation.*;
-import org.rhine.core.Scanner;
+import org.rhine.framework.annotation.*;
+import org.rhine.framework.core.Scanner;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletConfig;

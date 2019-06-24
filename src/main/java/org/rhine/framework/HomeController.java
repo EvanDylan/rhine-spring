@@ -1,9 +1,9 @@
-package org.rhine;
+package org.rhine.framework;
 
-import org.rhine.annotation.Autowried;
-import org.rhine.annotation.Controller;
-import org.rhine.annotation.RequestMapping;
-import org.rhine.annotation.RequestParam;
+import org.rhine.framework.annotation.Autowried;
+import org.rhine.framework.annotation.Controller;
+import org.rhine.framework.annotation.RequestMapping;
+import org.rhine.framework.annotation.RequestParam;
 
 @Controller("/")
 public class HomeController {

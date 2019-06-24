@@ -9,7 +9,7 @@
 
   <servlet>
     <servlet-name>dispatcher</servlet-name>
-    <servlet-class>org.rhine.web.DispatcherServlet</servlet-class>
+    <servlet-class>org.rhine.framework.webmvc.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextPath</param-name>
       <param-value>spring-context.xml</param-value>

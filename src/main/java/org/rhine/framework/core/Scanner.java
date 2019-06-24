@@ -1,4 +1,4 @@
-package org.rhine.core;
+package org.rhine.framework.core;
 
 import java.io.File;
 import java.net.URI;

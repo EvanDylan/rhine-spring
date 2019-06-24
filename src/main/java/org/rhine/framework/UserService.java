@@ -1,6 +1,6 @@
-package org.rhine;
+package org.rhine.framework;
 
-import org.rhine.annotation.Component;
+import org.rhine.framework.annotation.Component;
 
 /**
  * @author qs.zhou
@@ -8,7 +8,6 @@ import org.rhine.annotation.Component;
  */
 @Component
 public class UserService {
-
 
     public String dear(String name) {
         return "Dear : " + name;
